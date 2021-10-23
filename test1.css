@@ -1,0 +1,16 @@
+body{
+    background-image:url(images.jpg);
+}
+h2{
+    font-size: 60px;
+    font-family: "Passion One";
+    font-weight: bold;
+    text-align: center;
+}
+fieldset{
+    width: 400px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: double 5px black;
+    padding-bottom: 12px;
+}
