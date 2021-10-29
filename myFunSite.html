@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>KevinHan</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Tooplate" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Additional CSS Files -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/tooplate-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
+<!--
+Tooplate 2116 Blugoon
+https://www.tooplate.com/view/2116-blugoon
+-->
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRIYGBgYGBgYGhgYGBgYGBgYGBgZGRgYGBgcIS4lHB4sIxgYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHhISHjQsJCs0OD40NDE0NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDU9NTQ
+                0NDQ0NDQ0NP/AABEIAOYA2wMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAACAAEDBAcFBgj/xABLEAABAwIDBAYDDQQJAwUAAAABAAIRAyEEEjEFQVFhBhMicYGRMkKhByNSU2JygpKxwdHh8BRDsrMWMzRUY5Oio9IVJYMkZHSU8f/EABoBAAIDAQEAAAAAAAAAAAAAAAABAgMEBQb/xAAvEQACAgECBQIFBAIDAAAAAAAAAQIRAyExBBITQVFh8AUiIzJxFIGhwTOxUpHR/9oADAMBAAIRAxEAPwDG04CScKQhwEYCYIgEIg2MAiDUTWqdlHebBMi2QtZKmbQjUqQvA0UTnEp0RtvYLO0aBMahKjhEgTEXIU8JQmA0pEJ4TgICyIhCVMQhISJJkcpw8pEIUDJ21+N0WVruSrIgUhV4JX0CFAQrDKpCMhruRRQ+byU0lM+kQoiEDsEhCQjTEJDRGUyIpkiY6cJk6ZEJqka2ULGqyCGjmmiLdBBobrqgdUlQl8omhMi15LWHplxgLpO2M8CcpXPwtXKQVqfQvpTV6t1EPuBmYCA609poB/V1VlydNczWhPFj6j5UzMqmAePVPko3YR/wHeS+laT6jmtc3EtILQ6eqEQbg+kmLq3x7bf4bZ5wM2io/Vx8Fj4f1Pmc4Z3wHeRS6h3wHeRX0u51aJ68f5Q0+smZUqlv9aJmZ6sQG7pHHee8BNcZF9gfDep80Gk7e0jwKaFs3TraNQ4fE0nnNlpscDAbHWCq
+                TYb/AHtt+BPG+MBaYS5oplGSHK6sFwQkKVyjIUytMAhAQpSgKRYmRpwkUggY6IFMAiAQJktOpuN0qlC0hRhWaTrIog3RRLUJCt1GDUKBwSompEJQo3BAkWISJgQgKwxsCT4IG3SFOUc1GXJEykAmQCajaUDQjTIsMFdLYu0XUqjHtnskGOI3jylcsCVZw7DIhRnFSi0yUJOMk1ub50Y2pmaWTmBHWU4OrXGXNHcTPc7ku/SrZt3G8fr2rN+jNN1PDYapNy6plk6ubUqAN5BzQW+AWh4SsHta5tw4TJBmNbmbHkVw1o3G9jp5UnU13/33Jq9OW3vbhIPL7VDUceHJF1gE3Ec/H8/aqtbEW/PWPyT0bKkjyvSKiKrqzHGA9uHYTyIribqs73LqX94eDFuy0jyHhvVrpA7KMQ8uLcjKD5AzER15nLInulcSl0+c0QK55ThpA7oxAIXSjhyTxxcHWhkyZ4Qm1JN3Xb0LFf3Km3y4u/Nn4OXB2h7meMZJpllUDc12V31XfirrOn9dzoc8AE+kGlvcSD1h8pXd2b01fIBDH6nsuaTe8drK6OTaZKl0uJjrdkHmwPdV6mTbQ2XXoHLWovYfltI9uioFfQ+H6QYfEe9vbeBNN7Z5Emm4BwHMtA5rz+3vc9wlcF+HIovMxlOam4924k8J7klxDi6yKiaxxkrg7MWKZdrbvRvEYR0VWHLueLtP4eOkiVxVpjJSVog4uOjCCIFAnTIhBStMKEKenpdMgxgYPJBVZvGiMjgnaBok0CdFJyFWK9OFXUS5OyShTkoqjpKKMo71HKaQm7Yg1EGpgUWfkmJ2EkAgL00ygVMs0hJgBad0N6Cy1tfEghpALWXBcNQ5+9rY3C5+SLmD3Oeh4ytxeIb2T2qVMic/Cq4b2fBG8idAM3vNs7cFOGtgvILgCYDWiMznkzAEgkmdRZxLWuy5Jyk+SG5dGMYLmkU9pYcHC02tAblfXLYAGUtqOy5QLCNyWxMeS0sMDOSd/ZeIzstuPpjvcUGDqtfgqLwS4GpiTJBGb32rJgyYkaGTGqWxqYGZ8a1WHTTsVQQPIb9wXLnHlm0dCMk8fvydeu8ht28IkxcQD9oT4dwcLzfSTz3eKnJBm5gxMgRfcOH6ujosbIywecazyUorUrb0PKdNKcYfG8sNS+ysPvWLZ1uXTk+8bQ5YWj556oP2LERSnRdvh/sVHNzNczvz/SE0g7/Df4Ji8juUbmkWKQfx/NaLKqLYxr4ALiQIgOuGwZGWfRvvEFep6OdLarOzUqFzQBGYnORvAqgEzGmdrh8pq8e0cETmkXHioygpr5lYr5dtGbpsvaeHxdI0jBNmuD2tDgXeiHNM5XE6OktNsridPBdM/c7dSaa2G7
+                bAJfT3t4lvL9bpPndjbTNNwNxuBEBzQdQ0mxaZu10tdvG8ab0d6RtqNyOcLgkFsgECAXMzGzRIzNMubxLSHDHkwyw/Nj27o0Y8yl8mTfszDk60jpt0RzsOKw7b61GARr6zRp4DhwIjNgVZCalG0OUXF0wkbXKNOpkGgiU7XIQ5DKBUWHNzBVcqnzQgypNBF0R
+                vN0KRKGUFiQ8p0KSACXsPc66L/ttfNUHvFKHVN2cn0aQPyoJPBoPELyNOmXODWgkkgAC5JJgADiSvoPo/skYHCspAiW9uq5t81UwajuYEBg5NHFUcRl5I0t2WQjbt7FjpBtJuHpzAc55y02CBLogcmtAHcAOAKybam1XVHFubNJBe6/bcJgibhgk5W8y4y4lWemW2HVqgcHEAghrQez1ZjtW1zX5FoB9YrzlKpB5rRgwrHDXd7mTLk6s1Wy7Gw9EgDszCg/CxR8q9VdDAssfnMte3ZqiIXM6Iz/07CHfOLPf7/U8108FUIDiZ7L2bvk1T9642dXkZ14fZ78l6pbcATrund+vzUeciALfrd56fkpBiQ4QAZ9nffRVXm+oMGYkDTXvsoBRzOmTs2H2g7/2tEeVSr+KxMgraOlbpwuPIn+y0R5VKo+6PBYu55IXa4V/TRzcy+Zj9ZuN/tCI0QfRM7v0NVWhKVpsprwTNpkdysMMiCoGYlw1M/Ov9qskAgFtjElvDdIO8ad3tTjXYhK+5XLYMKzsraTqLhd0SD2TDmubo9hOjhJ5EEg2JUNQSO5VazbzxulIlGpbm09HtsNr0g1zQHNAsLNIdOUtaZhjgDAPolrmnQTnnTzo/+z1DVpj3p5uAZyP3ieH4jeVU6N7VdSqNMkhs9mT2muIL6bbw0nKHNO5zW8StLxmHbiMO5jsrmvaC1whuYObLHjvBHGJ4hc/JHpT5ls9zXjlzxcHuv9GIIlJjcM6lUdTcIcxxabRPAxzEHxUJK0lYiUhqhRxAQARclKjlFmQDRESmSKSRMdJMkgD2vuX7K63F9a4dnDtzjh1jjlpeRzP/APGtE6WY3KwUwcuexI1bSY3M9wO45WwD8LLxXI9y7BBmELzY1XvfMXys97YJ7xX+sqfSrEgvqkkQ0NotuZmRUq+cUT9IrJij1uJ12Q+Jn0sGm7PE41+Yl0ATo0aNG5o5AQByAVej6Skqdok6ACe9R0vSXUkYsfY2Hou/LszCnW+K/n1Fdwj81J5uO1SGvKpP26Kh0eH/AGnDGY7WJ4/H1fZZW9mf1NT59M+x64Gb/I/fY7UPtXvuTsq20MTGYzlnhO+EWouYnfbUqmHT3CY5SZPtv4qZ7Dbu3eev60VFk2ip0pj9lx8CB+x0I/zKqxZbN0k/suP/APiUv5tVZEaBAmF3OEV4kcriGlIrQmLVK5qArVRSmRwrbHQbbvuVeFYEG48e9EUKTJ3AQSBY7vuVWpTsRwV5mhH0h4ekPK/0VVxh9ob/AAifapS2K4PUpsdC0zodjM9PqyYydpvzHuOYfRqTHKuOCzQMXq+iONAe1swS8M0J7NYdWSeAD+odf4Kz5Ic0Gi/n5ZKS/cXul7Oy
+                PZXaLPGRx+UJLfGJ9i8Qte6WYbr8FUsZYzrBYWyjOfGBCyakLKjE7ijTl0YLBvKTzKJ5Qq0r9QEpScEkhgFJMkgmOnaEyUpAbvsGKWEw7cptQpEgCT22Cq6Y0EvfJP3rPekeKDnZd4fVc7S5Lyxv+ilTWmVKRawAOLQKbRYxZjA0A8uz+SyKrRdLnEekc/g8lw+1VfD46yfqQ49q4rwiJjLHuUNIdpXKLdQd49qhYyHLozWhixy+Y1fYA/7VheOfEj/fqq5sse81fnM/hqLn7HaDsnCgiQXYkEXuOvqmDG6wV/ZLveap3Z2W5RUtdefzf5JHdh9nvyKkPDuVhukFx8dPLTioWkEyPLmpabS4gRKzNFhz+kv9mx3PCUf5tVZVWA4eO8rWOlbIw+OA/udH+bVWV1bheg4NfSRxOLf1P3/8KL2oXMU7mJPbZaaKVIqFS4V3aHO34e1C9qPDMlze/wCy6ilqTbVMs03Q4cJAPcbH2EqjWPa7gB5ALpNowC52ggxvIn/8HiFytblORHHTtocmylweKLC4gkEtI7MTPpM14Oaw/RUJV3YdBr69NrhLXOa0jkTCg9dCxtKLb7Gt18r2P4Pa58bsrxnaPIhYUCWktO4kHwMLZtmXoUiTd1CgT/8AXpiVj+0hFeqP8R/8ZWHFo2vU2yVxX4GDgUKjaVIeK0FNUMU8BDKN
+                AMrJJJJFgkkk7dUgN+ZVz0w8H0qLDqPXpB4gR8oLOsVS/qyNCxo+qSw+1q9dsDFl2FwzxdvVUwe+nNEj/aXm9qtBYxos6m+ow8YDg9v8w+Sr+HupSi/JR8SVqEkcypTuYtBP69ifFUZ98AsT2gBAae4aBVsPXMwd66mAcWuzZsrQRLu/cOJPBdN00cy5Qkme52Kf+1YX5+J/n1VPssxQrD5dP2h6jwbgdm4YtAg1MSRAj99V0G5FskxQrl3wq
+                fmQ8D2ledzaZZHpcb+mn73JaDojj4WVui6OI7Ws8VQY+Lxw1Vyi8k+iSbnyBMrKy+it0mM0sadT+y0Nb/vquoK8Di8G2oM9NmV49JjfRdxcweqeLdDujQ+96QGaWLm2bC4cTw99rHd3Lx9DCOBnOyBeQ5s+RIjxK9HwKvCjzXxKfJktP3oebeGyIkzGguSQLACZuY5q43Zx0e25gBjT2p4GQQDyue4r1AZhwSczWPOpb2nO1kBzezTneQZ4yuHtbE12gtFPqWG3ZMl451R6Q5NgclrcaMUc7m0lp+f69/8ARSq7GOnon5Rb7QYPsU2GwFKiC+rUHCzS49zRYOPj5BNsvDOpAki7ogbxE3jcTPsVHG0alWoSTAmASbATa2qTVK61LFJyk4uXyrv5K20cd1hysblYCYEy53NxFieQsOepoxCkdTI9mnMSPtQEKnV7m6KSVLYjcut0fZFZh3gh3cG3PsBXLXY2LSc7Nl9Isc1vzqkUm/6qgTXkWXWFeTQNnty0mCbijRHdlw9OZ8ZWO7SdNaqRoajz5uK2TH1GsZVfm7LGvc0gGMlwBeIsQJvoIlYkLmTvuubi1cn5Z0paRSfZBImlAnaVoKmh0pSclKBEaSQToJjImoUTQgTNO9z/ABufCupE9qlVO71Kozt8A6nU+uOKn2lhz1z2erUa2qJEEuZLHxwlriSODF4rojtM0MQL9moMjgZicwcwmPlNaO4laJtpmek2qwEupnOJ3tiHt8uXqlZ4vpcQn2Y8+N5uGaW62PA9SSYAurNarmIaPRbZo46S48zHsA3K+7DQ1zo1b2TxDt/lKr4bCO9MNJaHBpdByybgE7jAPkuu1ocSGRN69j3eDkbLwsfDxP8AOqqTo/TAw9cDe+nrvs9BSaf+l4aNz8QPE1qn4HzU2xR/6av85vsa5ebzOssj0+PXHElYLceYBMcjCsUKTnHKH5Rq7KJgC5BOm6IG+O5UBWkROmisl5pgM3kAniAdB3xfx3LLZcyLbzj1WKuJbhqF909ZV9i8y/HMdq6CTfOMzCTqQ7d7F6LbzveMVxdhqQ/3KvBeKNdzRDTfed3dG9el4B/RX4PL/FIKWX9/6R0DTESKUjix8t8DDvtUTNp1KYhlMD50n2SAuW6vUBkEA8mtB8wFC/E1XavK2WYI4L3pot43GVXA5n5WnUNDWA8jlAnxlcmpWgZWzB1J38gOH67zeyTJJPeoy1QeprxxjFUim8IC1dCnhHO0aTzAMeJ0Cd+AI9KByDmk+MEwo0y/qJaWc5lOTyXrejWAGek8zZzqsbiKeVrCf/K9g+g5cGnhi5waBJ3D2+W+e9aBsDCgMzglwcAGEtAPUtDm0+yPhF1R8f4jN4WfiZ9PE/JdhXVy
+                Jdil08xTKWDc1pgvim0HWLSPq/wrJGr2PukbQD67aLTIptBcflOEgeAM/SjcvHNWXDHlijoZHbYSQTJwrSsIpkimQIZMnchQSHRtQtRNSQmFC1LohtkVqWVxl++YPa9aRpDvS8XD1VloVzZW0HUa
+                gc02tPgZDo3kHzuN6rzY+eNdyeKfK/Q0/wDZQCaJcA3tOol28OPapF24gyR3/KC5+G2d2wJbc2DpAPNrhY+avNxlPE0ReHRPZ9R+5wNp
+                aRccRzFhw1Nz3XAzD+saBEj46mPa4DmdD2dPCcRzw5Jbo43xHhJYpvLB6P8AhndqMybOw41y1cQP9+qlsd4/Zq3zm/wuTYxhbs7DtJ0rYgT3Vqqk2VTP7JUI+G0f6HfiuPxEfrSPQ8O7wx/CKY7PpXB3cdMwMboPtU7audxcTJJknvXOeTJB13lSUSB+vNZEjSWNuvBpV4P7ikD356/4BeTbhjpa/ifILu7YxFnsGjqLD9V9b8UPUdkQQ0untb2tHDmSY8F6bga6K/B5X4s3HN+TiuwMek8N5au8hcKGsxo9G/MjXwXWp7Nc7SO8kKvWohhizncdQO4LW6OdGTbo5Iwpdy/XBGabWWjM7noO/wDBX3YdzRJPbdp8lvHvP3KAYMDUpaF6be+xTqVoEuvwB074VCvXPIeUro4mgN13HyCmwOwHkhzgDM5WuMB0aue71WN1c7lAvpXKaStmjHFKtNXsg9gbPzWdMvaM5kyyg4w6DudUu0cG53aL2O1
+                sYzC0H1nES0Wa2wc4HK1rfkyWgR6IjcJVLZhDAWNcBfM+o4AZzo58H0LdlrdwA0JK8H046SHEvFNkdVTNiJh7r9q/qiSG97jbNA5WSTz5PRfydnDj6Udd3/B5fE13VHue8y57i5x4kmShTNCdXoGJOEydMQiU8JNTygQLwgUuoURQSQTSnlAiQDCCeEwKUoInW2FtY0XgE9n2CePL7DfjPvcLi2vyvY6HAgtcDdh3aat3213c8sIXU2NtZ1FwF3N4b2zrlm3gbdxuqcmN3zRdMtjKMo8k1aZsG06nWYDDENyudWrw0X7XWVMwaALydNLHcr+LqDD4dmHbBfGZ/wA8jv4HyyqXoy5j8Dh67rtpGvUDRIzO6yo1og77nuMLgYnHB73Oc9xJJJLSIve1pGvG1vDn5m3Jt7s1Y4pRUVsii5zg6/HdZSsfKifUDtSTr+o/WqZtS1vxVNFjOjRgOLjTovDqbWFtZjnts57jYWM5gP0VZLqX9zwP+SVxTUP5hTMfO9WrNOKqLKnihJ20dU
+                Opf3PCW/wrfYpaFLDkGcDgp50reYbZcyk0ndbj7Lq3ScIsL953XSfEZfI1hx/8UXG4WidcDge/q3XFhbsqWns3DuBIwWBMAg+9QM02bN75YPGDcC01ab9S4zaA0TcnV7nDhoBzk6AKelW8Bc27yTbml+pyruPoY+yQQ2XR3bOwH1D9uREcLT9bA4KLCzCbAyPV0FlIatpJBO4bhG/mO7fvVd9Qnhbgl+pyvuPow8E9DB4dzmtfgcGGOJzEU5hoY5xMFkbo+ksE23iGVK9R9NjWMdUcWMa0Na1mY5QGjS0e1a30r2l1OHrOaYdk6tpGuaoYd4iGHxWKhdPBF9NN7vUx5PvaWyHSSSKvKxJBJOgBwpMiBrZROqBFkabImuhJwTKRjtxSRN+SJO1O5sJgmA4RIUQQJiBXQ2TgXVqjGMbLnOa1o4ucYA7rqlTbJWoe5hsxtIVMa8CKXvdKdDWe257g035OPBQySqJLGrZ7LH5cLQZhKYzNpMIJgHMYl7o3ntk/SdyXkSxo4kGN3KQLesBH4q5iMe4vzZ95kyLySTPEm65ocBYOHhEnhbu3rj25ScjpcvKkiR9Qbh428TEJZt0/eoSboiUURJBGkyj0j9D81XyqWRxCKAu9cT63IRYQeSIPnf5Kk144911IysBvHmk0COk10aTuuYkxqbcVKKu+JgxbzgqlSrt3keYUjKzfhC+t/u8FBomdCg0xIJIbMQD6OpnzBUtci0EXHiOWsjyVGhjchBa5sgzeLxu9p80jiQ6GMIuYaLEtJMAN35biycYtypdxN0rZ4v3ScX2KVMes51Q9wGVnmCPqrwLAvRdPsUH42o1vo0g2k36Hpf6i5edC71KPyrZaHLTbV+RymSRIAQCZOpGNgSUCbAzQFHKd7kCiySVBJgnShMZK05hB1UbmwmBU7SHWOqZF6EJSBUj2QoygFqTUXwZXpMJ03xVCk2jSexrGzALGk9pxcSSb6leWDkilXcD0VTpzjXa1R4CPsKgd0wxZ/enzd/yXDTEIolZ3P6XYv40+b
+                vxQnpViz++d9Z3/ACXESRQHZ/pPivjXfWf/AMk46U4ofvT5u/FccFOihWdkdLMX8afN34qQdMcZ8b/F+K4KIBFBZ3v6aYz4weX5pv6Z4z40eS4JTQigs7x6ZYz432I6fTTGNMioJFwS2YI0IXnoShFBYeIrOe9z3mXPc5zjxc4kk25lAkQmTAIFOmAUzKe86IItjMZvOiCrUnuRVKk6aKuSk2SjHuxEpkkyQyQFOgRAoAeE0wnSTAlzzqhLUKTXQiyNeBiElI+Doo4TAZJOmQMeEMJ06ABTpyE0IAUowUCIIEwkxSKZAhJJIg1AAkJwwlWRQ42SdUAs3zQJNvYEMDbu8lDUqEpnvlCk2TSoSFwRJJDIkk7gmQA6dJJABgp
+                JJIASYpJJgJECkkgCRrQUnU4SSTRW9yMhMkkgkKEoTJIAeEQCSSAY8J2tlJJAmTsw++UjUA0CSSTIrUjq1CVGkkkWIByZJJAx0ySSAGKBJJAz/9k=" alt="League of Legends" /></a>
+            </div>
+            <div class="author-content">
+              <h4>LOL</h4>
+              <span>Free Team-Based Game</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">Intro</a></li>
+                <li><a href="#section2">Tutorial</a></li>
+                <li><a href="#section3">Champions</a></li>
+                <li><a href="#section4">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-text">
+              <p>Copyright 2020 Blugoon<br>
+              Design: Tooplate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+        <div class="top-header">
+        	<img src="https://i.ytimg.com/vi/pDu-_iL5tBc/maxresdefault.jpg" alt="aerobic girls" />
+        </div>
+          <div class="section-heading">
+          
+            <h2>League of Legends</h2>
+            <div class="line-dec"></div>
+            <span>League of Legends is a team-based game with over 140 champions to make epic plays with.</span>
+          </div>
+          <div class="right-image-post">
+            <div class="row">
+ 
+              <div class="col-md-8">
+                <div class="left-text">
+                  <h4>What is League of Legends?</h4>
+                  <p>League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.</p>
+                  
+                  <div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="right-image">
+                  <img src="https://i2.wp.com/udou.ph/wp-content/uploads/2020/10/league-of-legends-wild-rift-lane-guide.jpg?resize=600%2C300&ssl=1" alt="Map" />
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="left-image-post">
+            <div class="row">
+            
+              <div class="col-md-4">
+                <div class="left-image">
+                  <img src="https://i.ytimg.com/vi/9dkquYMwLfA/maxresdefault.jpg" style="width:200px;height:200px;margin:5px" alt="Tutorial" />
+                </div>
+              </div>
+              
+              <div class="col-md-8">
+                <div class="right-text">
+                  <h4>How to Win the Game?</h4>
+                  <p>DESTROY THE BASE. The Nexus is the heart of both teams’ bases. Destroy the enemy’s Nexus first to win the game.</p>
+                  <p>CLEAR THE PATH. Your team needs to clear at least one lane to get to the enemy Nexus. Blocking your path are defense structures called turrets and inhibitors. Each lane has three turrets and one inhibitor, and each Nexus is guarded by two turrets.</p>
+                  <div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Tutorial</h2>
+            <div class="line-dec"></div>
+            <span>Champions get stronger by earning experience to level up and gold to buy more powerful items as the game progresses. Staying on top of these two factors is crucial to overpowering the enemy team and destroying their base.
+
+            </span>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <i class="fa fa-area-chart"></i>
+                <h4>EARN EXPERIENCE</h4>
+                <p>When champions earn a certain amount of experience, they level up and can unlock or strengthen abilities and raise their base stats, kill enermy can gain experience.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <i class="fa fa-check-square-o"></i>
+                <h4>UNLOCK YOUR ABILITIES</h4>
+                <p>Most champions have a unique kit made up of five abilities: a Passive, three Basics, and an Ultimate. These abilities are mapped to the Q, W, E, and R keys. </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <i class="fa fa-question-circle"></i>
+                <h4>Need Help?</h4>
+                <p>Go to https://www.leagueoflegends.com/ for more details.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <i class="fa fa-support"></i>
+                <h4>Quick Support</h4>
+                <p>There’s a lot to learn about League, download it for free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Champions</h2>
+            <div class="line-dec"></div>
+          
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label><input type="radio" data-type="*" checked="" name="isotope-filter" />
+                  <span>all</span></label>
+                <label><input type="radio" data-type="pretty" name="isotope-filter" />
+                  <span>Mage</span></label>
+                <label><input type="radio" data-type="sexy" name="isotope-filter" />
+                  <span>Fighter</span></label>
+                <label><input type="radio" data-type="beach" name="isotope-filter" />
+                  <span>Assassin</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="beach">
+                  <figure class="snip1321">
+                    <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1259276b6d1efa78/5db05fa86e8b0c6d038c5ca2/RiotX_ChampionList_ahri.jpg?quality=90&width=250" alt="Ahri" />
+                    <figcaption>
+                      <a href="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1259276b6d1efa78/5db05fa86e8b0c6d038c5ca2/RiotX_ChampionList_ahri.jpg?quality=90&width=250"
+                        data-lightbox="image-1"
+                        data-title="Caption"><i class="fa fa-search"></i></a>
+                      <h4>Assassin</h4>
+                      <span>Ahri</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="sexy">
+                  <figure class="snip1321">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg" alt="Sett" />
+                    <figcaption>
+                      <a href="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg"
+                        data-lightbox="image-1"
+                        data-title="Sunshine Woman"><i class="fa fa-search"></i></a>
+                      <h4>Fighter</h4>
+                      <span>Sett</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="pretty">
+                  <figure class="snip1321">
+                    <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb73e3edb5937676a/5db05fd7823d426762825feb/RiotX_ChampionList_katarina.jpg?quality=90&width=250" alt="Pretty Girl" />
+                    <figcaption>
+                      <a href="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb73e3edb5937676a/5db05fd7823d426762825feb/RiotX_ChampionList_katarina.jpg?quality=90&width=250"
+                        data-lightbox="image-1"
+                        data-title="Pretty Girl"><i class="fa fa-search"></i></a>
+                      <h4>Mage</h4>
+                      <span>Katarina</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="pretty">
+                  <figure class="snip1321">
+                    <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt60f687c95425f73f/5db05fbd2dc72966da746704/RiotX_ChampionList_ezreal.jpg?quality=90&width=250" alt="Escalator Blue" />
+                    <figcaption>
+                      <a href="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt60f687c95425f73f/5db05fbd2dc72966da746704/RiotX_ChampionList_ezreal.jpg?quality=90&width=250"
+                        data-lightbox="image-1"
+                        data-title="Escalator Blue"><i class="fa fa-search"></i></a>
+                      <h4>Mage</h4>
+                      <span>Ezreal</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="beach">
+                  <figure class="snip1321">
+                    <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt402d6da485218720/5db0601de9effa6ba5295fc5/RiotX_ChampionList_zed.jpg?quality=90&width=250" alt="woman feeling" />
+                    <figcaption>
+                      <a href="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt402d6da485218720/5db0601de9effa6ba5295fc5/RiotX_ChampionList_zed.jpg?quality=90&width=250"
+                        data-lightbox="image-1"
+                        data-title="Her Feeling"><i class="fa fa-search"></i></a>
+                      <h4>Assassin</h4>
+                      <span>Zed</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="sexy">
+                  <figure class="snip1321">
+                    <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltaf44673e1a16af30/5db05fe87d28b76cfe439807/RiotX_ChampionList_monkeyking.jpg?quality=90&width=250" alt="Bikini Girl" />
+                    <figcaption>
+                      <a href="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltaf44673e1a16af30/5db05fe87d28b76cfe439807/RiotX_ChampionList_monkeyking.jpg?quality=90&width=250" 
+                      data-lightbox="image-1" data-title="Sexy Bikini">
+                      <i class="fa fa-search"></i></a>
+                      <h4>Fighter</h4>
+                      <span>Wukong</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact</h2>
+            <div class="line-dec"></div>
+            <span>WELCOME TO RIOT SUPPORT. HOW CAN WE HELP? </span>
+          </div>
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input name="name" type="text" class="form-control"
+                          id="name" placeholder="Your name..." required="" />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input name="email" type="text" class="form-control"
+                          id="email" placeholder="Your email..." required=""  />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input name="subject" type="text" class="form-control" 
+                          id="subject" placeholder="Subject..." required="" />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea name="message" rows="6" class="form-control"
+                          id="message" placeholder="Your message..." required="" ></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Send Message
+                        </button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
+  </body>
+</html>
